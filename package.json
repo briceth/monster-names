@@ -1,7 +1,7 @@
 {
   "name": "starwars-names",
   "version": "1.0.0",
-  "description": "Get random Star Wars names",
+  "description": "Get random monster names",
   "main": "dist/index.js",
   "scripts": {
     "prebuild": "rimraf dist",
@@ -33,6 +33,7 @@
   },
   "homepage": "https://github.com/kentcdodds/starwars-names#readme",
   "dependencies": {
+    "npm": "^5.8.0",
     "unique-random-array": "1.0.0"
   },
   "devDependencies": {
